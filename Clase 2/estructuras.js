@@ -13,6 +13,9 @@ if (a) {
     console.log(a)
 }
 
+var a = true
+if (!a) {}
+
 // Falsy (False)
 
 "" // un string vacío 
@@ -79,7 +82,9 @@ for (var index = 0; index < array.length; index++) {
 for (var i in frutas) {
     console.log(frutas[i])
 }
-
-for (var i of frutas) {
-    console.log(i)
+var i
+for (i of frutas) {
+    if (i == 'manzana') {
+        console.log(i)
+    }
 }
