@@ -1,0 +1,9 @@
+body {
+	background-image: url('assets/wallpaper.jpg');
+	background-attachment: fixed;
+	-moz-background-size: 100% 100%; /*Firefox 3.6*/
+	-o-background-size: 100% 100%; /*opera*/
+	-webkit-background-size: 100% 100%; /*Safari*/
+	background-size: 100% 100%;
+	-moz-border-image: url('assets/wallpaper.jpg');
+}
